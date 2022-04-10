@@ -248,3 +248,5 @@ kubectl delete clusterrole kcert
 
 Note that certificates created by KCert in other namespaces will NOT be deleted.
 You can keep those certificates or manually delete them.
+
+## Demo
