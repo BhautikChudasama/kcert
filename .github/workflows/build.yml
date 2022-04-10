@@ -1,13 +1,13 @@
 name: Build KCert
-# on:
-#   push:
-#     branches:
-#     - 'main'
-#     tags:
-#     - 'v*'
-#   pull_request:
-#     branches:
-#     - 'main'
+on:
+  push:
+    branches:
+    - '*'
+    tags:
+    - '*'
+  pull_request:
+    branches:
+    - '*'
 
 jobs:
   build-and-push-image:
